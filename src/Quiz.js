@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
-import quizData from './quiz_data.json';
+let quizData = require('./quiz_data.json'); // Idiot tests will not allow ES6 module :(
+// import quizData from './quiz_data.json';
 
 class Quiz extends Component {
   constructor(props){
